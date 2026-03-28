@@ -1,4 +1,4 @@
-# 🧠 NeuroDyads: Brain-to-Brain Decoder Pipeline
+# NeuroDyads: Brain-to-Brain Decoder Pipeline
 
 End-to-end pipeline for preprocessing hyperscanning EEG data and learning joint neural representations using **CEBRA**. Built as part of the ML4SCI NeuroDyads GSoC 2026 pre-task.
 
@@ -18,7 +18,7 @@ The goal is to understand how **two brains coordinate during natural conversatio
 
 ---
 
-## 🧩 Pipeline
+## Pipeline
 
 ### 1. Preprocessing
 - Segmentation using DIN1 markers
@@ -45,7 +45,7 @@ The goal is to understand how **two brains coordinate during natural conversatio
 
 ---
 
-## 📊 Results
+## Results
 
 | Model             | Accuracy | GoF (InfoNCE Loss) |
 |------------------|---------|-------------------|
@@ -64,7 +64,7 @@ The control collapsing to chance confirms that the learned structure is **not du
 
 ---
 
-## ⚠️ Limitation
+## Limitation
 
 The binary affect labeling introduces a strong temporal confound:
 - Label and time are perfectly correlated
@@ -77,7 +77,7 @@ The binary affect labeling introduces a strong temporal confound:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - MNE-Python
@@ -88,7 +88,7 @@ The binary affect labeling introduces a strong temporal confound:
 
 ---
 
-## 📖 References
+## References
 
 - Schneider et al., *CEBRA (Nature 2023)*  
 - Glushanina et al., *NeuroDyads (arXiv 2025)*  
