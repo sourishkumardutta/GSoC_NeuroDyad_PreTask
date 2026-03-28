@@ -4,7 +4,7 @@ End-to-end pipeline for preprocessing hyperscanning EEG data and learning joint 
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project implements a complete pipeline for analyzing **dyadic EEG recordings** from conversational pairs:
 
@@ -56,7 +56,7 @@ The control collapsing to chance confirms that the learned structure is **not du
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - Clear separation between affective states in embedding space
 - Sparse transition regions suggest dynamic neural state shifts
@@ -96,7 +96,7 @@ The binary affect labeling introduces a strong temporal confound:
 
 ---
 
-## 👤 Author
+## Author
 
 **Sourish Kumar Dutta**  
 IIT (ISM) Dhanbad  
